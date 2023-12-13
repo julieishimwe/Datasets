@@ -1,0 +1,73 @@
+Dataset,Model,10 fold cross validation average Accuracy,AUC,F1-Score,Sensitivity,Specificity
+Original Data Set,XG-Boost,92.52,99.37,92.50,99.12,90.73
+Original Data Set,RF,92.17,99.16,92.10,1,89.19
+Original Data Set,Catboost,92.54,99.35,92.65,1,91.11
+Original Data Set (Balanced),XG-Boost,94.13,99.61,93.88,1,92.59
+Original Data Set (Balanced),RF,93.71,99.52,94.13,1,91.85
+Original Data Set (Balanced),Catboost,93.99,99.64,94.21,1,92.96
+Only Outliers Removed,XG-Boost,95.04,99.71,94.83,1,91.28
+Only Outliers Removed,RF,94.95,99.66,94.29,97.93,90.36
+Only Outliers Removed,Catboost,95.17,99.71,94.19,1,89.91
+Balanced and Only Outliers Removed,XG-Boost,95.83,99.82,95.92,1,91.63
+Balanced and Only Outliers Removed,RF,95.78,99.76,95.98,1,90.74
+Balanced and Only Outliers Removed,Catboost,95.93,99.83,95.99,1,90.31
+Only Feature Selection Done,XG-Boost,92.63,99.34,92.76,1,91.51
+Only Feature Selection Done,RF,92.65,99.30,92.58,1,89.96
+Only Feature Selection Done,Catboost,92.66,99.33,92.76,1,91.89
+Balanced and Only Feature Selection Done,XG-Boost,93.99,99.59,94.25,1,93.70
+Balanced and Only Feature Selection Done,RF,93.71,99.52,94.13,1,91.85
+Balanced and Only Feature Selection Done,Catboost,93.76,99.63,94.34,1,93.33
+Outliers Removed and Feature Selection Done,XG-Boost,95.17,99.68,94.28,1,89.91
+Outliers Removed and Feature Selection Done,RF,94.96,99.66,94.29,97.94,90.37
+Outliers Removed and Feature Selection Done,Catboost,95.04,99.69,94.40,1,88.99
+"Balanced, Outliers Removed and Feature Selection Done",.,95.84,99.81,96.12,1,91.62
+"Balanced, Outliers Removed and Feature Selection Done",RF,96.06,99.80,96.29,1,92.51
+"Balanced, Outliers Removed and Feature Selection Done",Catboost,95.81,99.83,95.91,1,90.31
+Only Box-Cox Transformation Done,XG-Boost,92.65,99.35,92.58,99.12,91.51
+Only Box-Cox Transformation Done,RF,92.34,99.16,92.14,1,88.80
+Only Box-Cox Transformation Done,Catboost,92.67,99.34,92.36,1,91.89
+Balanced and  Box-Cox Transformation Done,XG-Boost,93.98,99.62,93.92,1,92.19
+Balanced and  Box-Cox Transformation Done,RF,93.62,99.53,93.86,1,91.82
+Balanced and  Box-Cox Transformation Done,Catboost,93.67,99.65,94.44,1,94.05
+Outliers Removed and Box-Cox Transformation Done,XG-Boost,95.25,99.70,94.61,1,90.37
+Outliers Removed and Box-Cox Transformation Done,RF,94.81,99.68,94.11,98.97,89.44
+Outliers Removed and Box-Cox Transformation Done,Catboost,95.07,99.70,94.65,1,90.37
+"Balanced, Outliers Removed and Box-Cox Transformation Done",XG-Boost,95.79,99.82,95.99,99.83,92.51
+"Balanced, Outliers Removed and Box-Cox Transformation Done",RF,95.72,99.81,95.64,1,89.87
+"Balanced, Outliers Removed and Box-Cox Transformation Done",Catboost,95.82,99.83,96.09,1,89.87
+Feature Selection Done and Box-Cox Transformation Done,XG-Boost,92.63,99.33,92.87,1,91.51
+Feature Selection Done and Box-Cox Transformation Done,RF,92.76,99.25,92.58,1,89.58
+Feature Selection Done and Box-Cox Transformation Done,Catboost,92.55,99.32,92.65,1,90.73
+"Balanced, Feature Selection Done and Box-Cox Transformation Done",XG-Boost,92.63,99.33,92.88,1,91.50
+"Balanced, Feature Selection Done and Box-Cox Transformation Done",RF,93.96,99.55,93.75,1,92.16
+"Balanced, Feature Selection Done and Box-Cox Transformation Done",Catboost,93.91,99.60,94.09,1,93.28
+"Outliers Removed, Feature Selection Done and Box-Cox Transformation Done",XG-Boost,95.29,99.68,94.48,1,89.90
+"Outliers Removed, Feature Selection Done and Box-Cox Transformation Done",RF,95.26,99.65,94.91,1,91.74
+"Outliers Removed, Feature Selection Done and Box-Cox Transformation Done",Catboost,95.11,99.68,94.53,1,89.45
+"Balanced, Outliers Removed, Feature Selection Done and Box-Cox Transformation Done",XG-Boost,95.95,99.82,96.09,1,91.63
+"Balanced, Outliers Removed, Feature Selection Done and Box-Cox Transformation Done",RF,96.00,99.83,96.32,1,91.63
+"Balanced, Outliers Removed, Feature Selection Done and Box-Cox Transformation Done",Catboost,95.64,99.84,95.95,1,90.75
+Features Normalised,XG-Boost,92.69,99.37,92.91,1,91.11
+Features Normalised,RF,92.27,99.17,92.02,1,89.19
+Features Normalised,Catboost,95.18,99.70,94.19,1,89.91
+"Balanced, and Features Normalized",XG-Boost,94.06,99.60,94.45,1,93.33
+"Balanced, and Features Normalized",RF,93.65,99.52,93.95,1,91.11
+"Balanced, and Features Normalized",Catboost,93.90,99.64,94.39,1,93.33
+"Outliers Removed, and Features Normalised",XG-Boost,94.95,99.70,94.66,1,92.20
+"Outliers Removed, and Features Normalised",RF,95.04,99.67,94.45,97.94,90.37
+"Outliers Removed, and Features Normalised",Catboost,95.19,99.70,94.36,1,89.90
+"Balanced, Outliers Removed, and Features Normalised",XG-Boost,95.83,99.82,95.92,1,91.93
+"Balanced, Outliers Removed, and Features Normalised",RF,95.78,99.76,95.98,1,90.75
+"Balanced, Outliers Removed, and Features Normalised",Catboost,95.93,99.82,95.98,1,90.31
+Feature Selection Done and Features Normalised,XG-Boost,92.77,99.35,92.95,1,91.89
+Feature Selection Done and Features Normalised,RF,92.66,99.27,92.32,1,89.96
+Feature Selection Done and Features Normalised,Catboost,92.71,99.34,92.76,1,91.51
+"Balanced, Feature Selection Done and Features Normalised",XG-Boost,94.01,99.61,94.07,1,93.33
+"Balanced, Feature Selection Done and Features Normalised",RF,94.08,94.03,94.04,1,91.11
+"Balanced, Feature Selection Done and Features Normalised",Catboost,93.89,99.64,94.09,1,93.70
+"Outliers Removed, Feature Selection Done and Features Normalised",XG-Boost,95.16,99.68,94.37,1,89.91
+"Outliers Removed, Feature Selection Done and Features Normalised",RF,95.20,99.67,94.53,1,91.28
+"Outliers Removed, Feature Selection Done and Features Normalised",Catboost,95.11,99.69,94.32,1,89.44
+"Balanced, Outliers Removed, Feature Selection Done and Features Normalised",XG-Boost,95.78,96.15,96.16,1,91.62
+"Balanced, Outliers Removed, Feature Selection Done and Features Normalised",RF,96.08,99.80,96.19,1,92.51
+"Balanced, Outliers Removed, Feature Selection Done and Features Normalised",Catboost,95.83,99.83,96.16,1,91.19
